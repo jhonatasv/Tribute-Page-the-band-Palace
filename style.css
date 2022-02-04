@@ -17,11 +17,17 @@ h1 {
   margin-bottom: 0;
 }
 
-@media (max-width: 460px) {
-  h1 {
-    font-size: 3.5rem;
-    line-height: 1.2;
-  }
+#image {
+  border-radius: 20px;
+  box-shadow: -2px 1px 3px 1px #0000001a;
+}
+
+section p {
+  text-align: justify;
+} 
+
+.paragraph-band {
+  text-align: center;
 }
 
 h2 {
@@ -43,12 +49,6 @@ a:visited {
   background: #eee;
 }
 
-@media (max-width: 460px) {
-  #main {
-    margin: 0;
-  }
-}
-
 img {
   max-width: 100%;
   display: block;
@@ -57,19 +57,14 @@ img {
 }
 
 #img-div {
-  backgound: white;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 20px;
   padding: 10px;
   margin: 0;
 }
 
 #img-caption {
   margin: 15px 0 5px 0;
-}
-
-@media (max-width: 460px) {
-  #img-caption {
-    font-size: 1.4rem;
-  }
 }
 
 #headline {
@@ -80,7 +75,7 @@ img {
 ul {
   max-width: 550px;
   margin: 0 auto 50px auto;
-  text-align: left;
+  text-align: left; 
   line-height: 1.6;
 }
 
@@ -93,4 +88,25 @@ blockquote {
   max-width: 545px;
   margin: 0 auto 50px auto;
   text-align: left;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+    background-color: #310080;
+  }
+ 
+  #img-caption {
+    font-size: 1.4rem;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+
+  .description-paragraph {
+    text-align: center;
+  }
+
 }
