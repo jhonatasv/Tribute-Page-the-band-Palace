@@ -73,7 +73,8 @@ img {
 }
 
 ul {
-  max-width: 550px;
+  
+  max-width: 820px;
   margin: 0 auto 50px auto;
   text-align: left; 
   line-height: 1.6;
@@ -95,7 +96,7 @@ blockquote {
     margin: 0;
     background-color: #310080;
   }
- 
+  
   #img-caption {
     font-size: 1.4rem;
   }
